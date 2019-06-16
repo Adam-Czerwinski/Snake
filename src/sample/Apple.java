@@ -18,14 +18,6 @@ public class Apple extends GameObject{
         this.y = (int) (Math.random() * 20);
     }
 
-    public void setRectangleX() {
-        this.rectangle.setLayoutX(getX() * width);
-    }
-
-    public void setRectangleY() {
-        this.rectangle.setLayoutY(getY() * height);
-    }
-
 
     public Apple() {
         rectangle = new Rectangle(width, height);

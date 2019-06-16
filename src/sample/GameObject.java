@@ -14,6 +14,14 @@ public class GameObject extends Point2D{
     final double width = 20.0;
     final double height = 20.0;
 
+    public void setRectangleX() {
+        this.rectangle.setLayoutX(getX() * width);
+    }
+
+    public void setRectangleY() {
+        this.rectangle.setLayoutY(getY() * height);
+    }
+
     GameObject(){}
 
 }
